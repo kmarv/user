@@ -1,0 +1,223 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+}
+.main-container{
+    width: 50%;
+    margin: auto;
+    margin-top: 1.4%;
+}
+body{
+    background-color: rgba(249, 249, 250,0.3);
+}
+.label{
+    height: 45px;
+    padding: 8px;
+    border-top-right-radius: 8px;
+    background-color:#1E8CBE;
+    color: white;
+    width: 27%;
+    font-size: 22px;
+    text-indent: 3px;
+}
+form{
+    border: 2px solid rgb(30, 140, 190);
+    border-bottom: 8px solid #1E8CBE;
+    background-color: white;
+    margin-bottom: 2%;
+}
+.register{
+    margin: auto;
+    margin-top: 4%;
+    width: 80%;
+}
+label{
+    font-size: 18px;
+    font-weight: 600;  
+}
+input {
+    width: 100%;
+    margin-top: 1%;
+    padding: 4px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #FAFAFA;
+    border-radius: 4px;
+    height: 43px;
+    font-size: 15px;
+    font-weight: 400;
+}
+input:focus {
+    border-color: #85b8d0;
+    border-width: 2px;
+}
+.button{
+    width: 30%;
+    margin: 5% auto;
+}
+input[type=submit],.go-btn {
+    padding: 14px 20px;
+    margin: 0%;
+    font-size: 17px;
+    border: 2px solid rgb(30, 140, 190);
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    height: unset;
+}
+input[type=submit]:hover,.go-btn:hover,input[type=submit]:focus,.go-btn:focus {
+    background-color:rgb(30, 140, 190);
+    color: white;
+    border: 2px solid rgb(30, 140, 190);
+}
+.clr{
+    clear: both;
+}
+/* CSS For the Go Section i.e Servlet */
+.detail-container{
+    background-color: white;
+    width: 70%;
+    margin: 2% auto;
+}
+.container-up{
+    border: 4px solid rgb(30, 140, 190);
+    border-bottom: none;
+    padding-top: 14px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.container-down{
+    border: 4px solid rgb(46, 46, 46);
+    border-top: none;
+    padding-bottom: 14px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.intro{
+    text-align: center;
+}
+.welcome-section{
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+.welcome-left{
+    background-color: rgba(46, 46, 46,0.6);
+    float: left;
+    width: 19%;
+    position: absolute;
+    margin-left: 5.3%;
+    margin-top: 3.7%;
+    border-radius: 8px;
+    height: 4px;
+}
+.welcome-right{
+    background-color: rgba(46, 46, 46,0.6);
+    float: right;
+    width: 27%;
+    margin-right: 7%;
+    margin-top: -4.3%;
+    border-radius: 8px;
+    height: 4px;
+}
+.welcome{
+    font-size: 68px;
+    color:rgb(28, 129, 176);
+    font-weight: 100;
+}
+.uname{
+    font-size: 25px;
+    background-color: rgb(46, 46, 46);
+    width: 76%;
+    color: white;
+    border-radius: 6px;
+    height: 60px;
+    margin: auto;
+    line-height: 2.2;
+    cursor: default;
+}
+.field-section-go hr {
+    border: 1px solid rgba(46, 46, 46,0.6);
+    margin-top: -3.2%;
+    width: 100%;
+    clear: both;
+}
+.field-section-go {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 4%;
+}
+.nobottom{
+    margin-bottom:0;
+}
+.info-section{
+    padding-top: 4%;
+}
+.field{
+    float: left;
+    font-size: 22px;
+    width: 45%;
+    text-indent:2%;
+}
+.detail{
+    color: rgb(28, 129, 176);
+    font-size: 20px;
+    text-align: center;
+}
+.buttons {
+    margin-top: 5%;
+    margin-bottom: -3%;
+}
+.go-btn{
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.go-btn-right {
+    float: right;
+}
+.go-btn-left{
+    float: left;
+}
+.btn-black {
+border: 2px solid #2E2E2E;
+}
+.btn-black:hover,.btn-black:focus {
+    border-color: #2E2E2E;
+    background-color: #2E2E2E;
+}
+.wrongDetails {
+    margin-top: -23%;
+    margin-left: 36%;
+    font-size: 20px;
+    color: #FF3636;
+    font-weight: 600;
+}
+.wrongDetails-two,.wrongDetails-three {
+    margin-top: -16.4%;
+    margin-left: 40%;
+    font-size: 18px;
+    color: #FF3636;
+    font-weight: 600;
+}
+.wrongDetails-three {
+    margin-top: -43.97%;
+}
+
+@media screen and (max-width:539px){
+    .detail,.field{
+        font-size: 18px;
+    }
+    .detail span{
+        margin-left: 55%;
+    }
+    
+}
+@media screen and (max-width:429px){
+    .detail,.field{
+        font-size: 14px;
+    }
+}
